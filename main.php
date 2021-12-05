@@ -83,12 +83,12 @@
 
                         <div class="form-check">
                             <input type="radio" class="form-check-input" name="gender" value="male" id="gender" checked="checked">
-                            <label for="gender" class="form-check-label">Мужcкой</label>
+                            <label for="gender" class="form-check-label">Мужчина</label>
                         </div>
 
                         <div class="form-check">
                             <input type="radio" class="form-check-input" name="gender" value="female">
-                            <label for="gender" class="form-check-label">Женский</label>
+                            <label for="gender" class="form-check-label">Женщина</label>
                         </div>
 
                         <div class="form-group">
@@ -107,7 +107,7 @@
                         </div>
 
                         <div class="form-group">
-                        <div class="col-form-label">Прикрепить своё фото:</div>
+                        <div class="col-form-label">Прикрепить своё фото</div>
                         <div class="custom-file file">
                             <div>
                             <input for="image" type="file" name="image" accept=".jpg, .png .jpeg"  class="custom-file-input" id="file">
@@ -122,7 +122,7 @@
                         </div>
 
                         <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="checkbox" name="confirmation"  value="yes">
+                            <input type="checkbox" class="form-check-input" id="checkbox" name="confirmation"  value="yes" required>
                             <label class="form-check-label" for="checkbox">Я даю согласие на обработку персональных данных</label>
                         </div>
                         </br>
