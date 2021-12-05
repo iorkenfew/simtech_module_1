@@ -11,22 +11,21 @@
 ![GitHub](/instructions/2.png)
 ![GitHub](/instructions/db.png)
 
-
 ### Использование:
 1) Запускаем сервер и во вкладке мои проекты выбираем проект "simtech" и кликаем на main.php.
 
-   * ![GitHub](/instructions/3.png)
-   * ![GitHub](/instructions/5.png)
+![GitHub](/instructions/3.png)
+![GitHub](/instructions/5.png)
    
 2. Заполняем форму и нажимаем кнопку "Подтвердить".
    * Обязательными полями являются имя, фамилия, email, должность, согласие.
    
-   ![GitHub](/instructions/5.png)
+![GitHub](/instructions/5.png)
    
    При успешном заполнении формы данные будут отправлены в БД, содержимое таблицы представлено ниже.
    
-    ![GitHub](/instructions/6.png)
+![GitHub](/instructions/6.png)
     
 3) Нажимаем на кнопку "Список результатов", где можно посмотреть список результатов.
 
-   * ![GitHub](/instructions/7.png)
+![GitHub](/instructions/7.png)
