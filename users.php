@@ -3,7 +3,7 @@
 <?php
      $conn = new Db();
 
-     $list = $conn->query("SELECT * FROM `users1`");
+     $list = $conn->query("SELECT * FROM `users`");
 ?>
 
 <html>

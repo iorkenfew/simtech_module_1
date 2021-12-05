@@ -49,7 +49,7 @@
     $conn = new Db();
     try
     {
-            $conn->query("INSERT INTO `users1` (`name`, `surname`, `gender`, `email`, `post`, `textarea`, `confirmation`, `ph_name`, `ph_path`, `tmp_path`) VALUES (:name, :surname, :gender, :email, :post, :textarea, :confirmation, :ph_name, :ph_path, :tmp_path);",
+            $conn->query("INSERT INTO `users` (`name`, `surname`, `gender`, `email`, `post`, `textarea`, `confirmation`, `ph_name`, `ph_path`, `tmp_path`) VALUES (:name, :surname, :gender, :email, :post, :textarea, :confirmation, :ph_name, :ph_path, :tmp_path);",
             [':name' => $name, ':surname' => $surname, ':gender' => $gender, ':email' => $email, ':post' => $post, ':textarea' => $textarea, ':confirmation' => $confirmation, ':ph_name' => $ph_name, ':ph_path' => $ph_path, ':tmp_path' => $tmp_path]);
     }
     catch(PDOException $e)
