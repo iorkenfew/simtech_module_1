@@ -12,7 +12,7 @@
 ![GitHub](/instructions/db.png)
 
 ## Использование.
-1) Запускаем сервер и во вкладке мои проекты выбираем проект "simtech" и кликаем на main.php.
+1) Запускаем сервер и во вкладке мои проекты выбираем проект "simtech", затем кликаем на main.php.
 
 ![GitHub](/instructions/3.png)
 ![GitHub](/instructions/5.png)
